@@ -244,23 +244,10 @@ class QuestionniareFragment : Fragment(){
 
         return encImage
     }
-/*@Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-      if (requestCode == CropImage.CROP_IMAGE_ACTIVITY_REQUEST_CODE) {
-        CropImage.ActivityResult result = CropImage.getActivityResult(data);
-        if (resultCode == RESULT_OK) {
-          Uri resultUri = result.getUri();
-        } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
-          Exception error = result.getError();
-        }
-      }
-    }*/
 
-    /*override fun onCommentClick(position: Int) {
-        showDialog(questionnaireList[position].className, questionnaireList[position].question)
-    }*/
-
-
+    fun donothing(){
+        Toast.makeText(context.applicationContext,"Do Nothing",Toast.LENGTH_SHORT).show()
+    }
 
     private fun showDialog(txtTitle:String, queText: String) {
         // Inflates the dialog with custom view
