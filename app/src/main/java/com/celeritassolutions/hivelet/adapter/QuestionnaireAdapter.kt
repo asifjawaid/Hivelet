@@ -224,29 +224,4 @@ class QuestionnaireAdapter(val list: List<QuestionnireModel>, val context: Conte
     interface BtnCommentListener {
         fun onCommentClick(position: Int)
     }
-
-    /*private fun postResponseData(pos: Int) {
-        var apiService = ApiClient.client?.create(ApiInterface::class.java)
-        val listcall = apiService?.responseDemoRC(
-            "#" +
-                    "${list[pos].assessmentID}", "1", "YES", "Reservations Service", "11-Feb-2019 12:29 PM"
-            , "Cars in queue are acknowledged and appropriately handled on arrival ", ".", "deptID", "1", "",
-            "Hivelet"
-        )
-        listcall?.enqueue(object : Callback<ResponseBody> {
-            override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
-                if (response.isSuccessful) {
-                    Log.d("Data Posted", "${response.code()}")
-
-                } else {
-                    Log.d("#Response", "${response.code()}")
-                }
-            }
-
-            override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
-                Log.d("TAG", "" + t.printStackTrace())
-            }
-
-        })
-    }*/
 }
