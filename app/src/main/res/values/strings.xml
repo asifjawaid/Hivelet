@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Hivelet</string>
+    <string name="txt_dashboard">DASHBOARD</string>
+    <string name="label_remember">Remember Me</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Password</string>
+    <string name="txt_button_sign_in">Sign In</string>
+    <string name="txt_button_join">Join</string>
+    <string name="label_assisment">MTD Assessments</string>
+    <string name="label_assisment_total">Total Assessment</string>
+    <string name="label_total_value">0</string>
+    <string name="label_avg_score">Average Score</string>
+    <string name="label_assessment_dept">Assessment/Department</string>
+    <string name="label_dept">Departments</string>
+    <string name="label_mtd_assessment">MTD \nAssessments</string>
+    <string name="label_score">Score</string>
+    <string name="txt_guest_room">GUEST ROOM</string>
+    <string name="inspector_manager">Inspector/Manager</string>
+    <string name="txt_assessment_title">Assessment Title</string>
+    <string name="btn_launch">Launch</string>
+    <string name="label_sr_no">#</string>
+    <string name="label_date">Date</string>
+    <string name="label_trainer">Trainer</string>
+    <string name="label_scoretxt">Score</string>
+    <string name="label_status">Status</string>
+    <string name="user_name">Username</string>
+    <string name="txt_forgot_password">Forgot Password?</string>
+    <string name="txt_copyright"><![CDATA[© 2019, All Rights Reserved]]></string>
+    <string name="txt_month_to_date">Month to Date</string>
+    <string name="txt_year_to_date">Year to Date</string>
+    <string name="guest_arrival">GUEST SERVICES</string>
+    <string name="new_assissment">NEW ASSESSMENT</string>
+    <string name="past_assessments">PAST ASSESSMENTS</string>
+    <string name="courtesy_details">Staff makes eye contact and keeps focus on the guest</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="room_number">Room Number</string>
+    <string name="meal">Meal Period</string>
+    <string name="arrival_services">ARRIVAL</string>
+    <string name="que_one">Staff acknowledges the guests when appropriate and reasonably possible</string>
+    <string name="proceed">Proceed</string>
+    <string name="categories_assessments">Categories of Assessments</string>
+    <string name="Cleanliness"><![CDATA[Cleanliness & condition]]></string>
+    <string name="save_responses">Save Responses</string>
+    <string name="submit_responses">Submit All Responses</string>
+    <string name="btncontinue">Continue</string>
+
+    <string-array name="names_arrays">
+        <item></item>
+        <item>Diane ArmStrong</item>
+        <item>Firat Okcu</item>
+        <item>George Grindjam</item>
+        <item>Jasmin Glueck</item>
+        <item>Megan Bringley</item>
+        <item>Michael Bunder</item>
+        <item>Nicole Valencia</item>
+    </string-array>
+
+    <string-array name="dept_arrays">
+        <item>Assessment Title</item>
+        <item>Front Desk</item>
+        <item>Guest Room</item>
+        <item>Guest Services</item>
+        <item>Guest Services Request</item>
+        <item>Hotel Dining Service</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="employees_setup">EMPLOYEES SET-UP</string>
+    <string name="employee">EMPLOYEES</string>
+    <string name="selected_employee">SELECTED EMPLOYEES</string>
+    <string name="search_employee">Employee Name</string>
+    <string name="search_department">Department</string>
+    <string name="section">Section</string>
+    <string name="add_employees">Add Employees</string>
+    <string name="txt_warning">Warning</string>
+    <string name="warning_text">A trainer name and assessment title have to be selected before a new assessment can be
+        launched.
+    </string>
+    <string name="confirmation_text">employee(s) added to assessment 013119124511 for department Guest Services
+        Request.
+    </string>
+    <string name="employee_warning">Please select at least one employee for this assessment.</string>
+    <string name="comments">COMMENTS</string>
+    <string name="txt_manager_name">Manager Name</string>
+    <string name="cat_title">Category Title</string>
+    <string name="txt_strength">STRENGTHS</string>
+    <string name="txt_weaknesses">Weaknesses</string>
+    <string name="txt_add_comments">Additional Comments</string>
+</resources>

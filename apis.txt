@@ -1,0 +1,13 @@
+Asif,
+
+Below Apis are using in Hivelet for submit assessment and get dashboard data from server.
+
+Save data at server on summary viewcontroller:
+
+1.	http://ec2-52-4-106-227.compute-1.amazonaws.com/demoassessment/setResponsesDemoRC.php?AssessmentID=1QuestionID=315&ResponseText=YES&AssessmentName=COURTESY & MANNERS&AssessmentDate=16-02-2019&AssessmentQuestion=Nice Question&ResponseComment=NA&DepartmentID=1&SectionName=1&ImageData=NA&OrganizationCode=Rosewood
+2.	http://ec2-52-4-106-227.compute-1.amazonaws.com/demoassessment/AWSassessmentListRDemoRC.php?DepartmentID=%@&AssessmentID=%@&AssessmentLaunchedDateTime=%@&AssessmentSubmittedDateTime=%@&AssessmentTrainer=%@&AssessmentScore=%@&AssessmentCurrentStatus=%@&SummaryComments=%@&AssessmentNameID=%@&OrganizationCode=%@
+3.	http://ec2-52-4-106-227.compute-1.amazonaws.com/demoassessment/setGeneralDemoRC.php?AssessmentID=%@&DepartmentID=%@&AssessmentNameID=%@&RoomNumber=%@&MealDuration=%@&OrganizationCode=%@
+
+Get Dashboard Data from server:
+
+1.	http://ec2-52-4-106-227.compute-1.amazonaws.com/demoassessment/AWSgetAssessmentListLastRC.php?DepartmentID=7&OrganizationCode=Rosewood
