@@ -246,7 +246,7 @@ class QuestionniareFragment : Fragment(){
     }
 
     fun donothing(){
-        Toast.makeText(context.applicationContext,"Do Nothing",Toast.LENGTH_SHORT).show()
+        Toast.makeText(context!!.applicationContext,"Do Nothing",Toast.LENGTH_SHORT).show()
     }
 
     private fun showDialog(txtTitle:String, queText: String) {
