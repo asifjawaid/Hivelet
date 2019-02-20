@@ -202,9 +202,8 @@ class QuestionnaireAdapter(val list: List<QuestionnireModel>, val context: Conte
         holder.itemView.btn_photo.setOnClickListener {
             if (mClickListener != null){
                 mClickListener?.onBtnClick(position)
-
+                holder.itemView.btn_photo.setBackgroundResource(R.drawable.img_photo_true)
             }
-
         }
 
         holder.itemView.btn_comment.setOnClickListener {
@@ -212,7 +211,6 @@ class QuestionnaireAdapter(val list: List<QuestionnireModel>, val context: Conte
                 mCommentListener?.onCommentClick(position)
 
             }
-            holder.itemView.btn_photo.setBackgroundResource(R.drawable.img_photo_true)
         }
         }
 
